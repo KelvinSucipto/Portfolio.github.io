@@ -1,0 +1,450 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    margin: 0%;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(0.01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.judul{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 120px;
+    cursor: pointer;
+}
+
+.judul ul li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+}
+
+.judul ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.judul ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.judul ul li:hover:after{
+    width: 100%;
+}
+
+.isi h1{
+    font-size: 70px;
+}
+
+.isi p{
+    margin: 5px auto;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.isi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 14vh;
+}
+
+.text{
+    color: white;
+    position: relative;
+    top: -10vh;
+}
+
+.text p h1{
+    position: absolute
+}
+
+.text div{
+    position: absolute;
+    padding-top: 200px;
+    top: 30vh;
+}
+
+.text div img {
+    width: 2.5vw;
+    margin-right: 3vh;
+}
+
+.img-isi img {
+    width: 31.6vw;
+    margin-right: 175px;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #43444E;
+    background-position: center;
+    background-size: cover;
+}
+.about1{
+    text-align: center;
+    color: white;
+    padding-top: 2vw;
+}
+.about1 h1{
+    font-size: 4vw;
+}
+.about1 p{
+    font-size: 2vw;
+    margin-left: 42vw;
+}
+.awosome{
+    background-color: #313139;
+    width: 20%;
+}
+/* .swiper{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+} */
+.img img{
+    display: flex;
+    flex-direction: row;
+    width: 60vh;
+    height: 70vh;
+    object-fit: cover;
+    padding-top: 60px;
+}
+
+.img{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic1{
+    padding-left: 2%;
+}
+
+.pic2{
+    padding-right: 2%;
+}
+.bg2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.bgs{
+    width: 50%;
+    background-color: #212126;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.bgd{
+    width: 50%;
+    background-color: #313139;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.jd h1{
+    font-size: 70px;
+    color: white;
+}
+.isi2{
+    color: white;
+    margin-left: 3vw;
+}
+.isi2 h2{
+    font-size: 50px;
+}
+.isi2 h3{
+    font-size: 35px;
+}
+.isi2 p{
+    font-size: 20px;
+}
+.isi3{
+    color: white;
+    margin-left: 5vw;
+}
+.isi3 h2{
+    font-size: 50px;
+}
+.isi3 h3{
+    font-size: 35px;
+}
+.isi3 p{
+    font-size: 20px;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+    width: 15vh;
+    height: 20vh;
+    object-fit: cover;
+    padding-top: 60px;
+}
+.contact{
+    background-color:#43444E;
+}
+.flex {
+    display: flex;
+}
+.sosmed img{
+    height: 3vw;
+}
+footer{
+    background-color: #313139;
+}
+.img2 img{
+    scale: 0.8;
+}
+.img2 img:hover{
+    scale: 1;
+}
+.xdbar{
+    background-color: white;
+    height: 1.5vw;
+    width: 10vw;
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 10vw;
+}
+.aibar{
+    background-color: white;
+    height: 1.5vw;
+    width: 12vw;
+    position: absolute;
+    margin-top: 10.5vw;
+    margin-left: 10vw;
+}
+.mayabar{
+    background-color: white;
+    height: 1.5vw;
+    width: 10vw;
+    position: absolute;
+    margin-top: 18vw;
+    margin-left: 10vw;
+}
+.prbar{
+    background-color: white;
+    height: 1.5vw;
+    width: 15vw;
+    position: absolute;
+    margin-top: 26vw;
+    margin-left: 10vw;
+}
+.psbar{
+    background-color: white;
+    height: 1.5vw;
+    width: 18vw;
+    position: absolute;
+    margin-top: 33.5vw;
+    margin-left: 10vw;
+}
+.img2 p{
+    position: absolute;
+    color: antiquewhite;
+    margin-left: 40vw;
+    font-size: 1.5vw;
+}
+.lima{
+    margin-top: 2.5vw;
+}
+.enam{
+    margin-top: 9.5vw;
+}
+.limaa{
+    margin-top: 17.6vw;
+}
+.tujuh{
+    margin-top: 25vw;
+}
+.delapan{
+    margin-top: 32.5vw;
+}
+.contact{
+    color: white;
+    padding: 2vw;    
+}
+.desc h1{
+    padding-top: 3vw;
+    font-size: 3vw;
+    z-index: 100;
+}
+.desc p{
+    padding-right: 77vw;
+    padding-top: 3vw;
+    font-size: 1.5vw;
+}
+.bgimg img{
+    position: absolute;
+    height: 50vw;
+    opacity: 50%;
+}
+.bgimg .left{
+    margin-left: 50vw;
+
+}
+.leftside .email{
+    position: absolute;
+    margin-top: 10vw;
+
+}
+.leftside .email a{
+    color: white;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+.rightside{
+    margin-left: 50vw;
+    background-color: #313139;
+    padding: 2vw 2vw 2vw 2vw;
+    margin-top: -20vw;
+    margin-bottom: 10vw;
+}
+.line{
+    background-color: white;
+    height: 0.1vw;
+    width:35vw;
+    margin-top: 5vw;
+    position: absolute;
+}
+.bold{
+    font-weight: bold;
+}
+.rightside p{
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    z-index: 100;
+}
+.tgl{
+    margin-right: 2vw;
+}
+.arrowbtn1{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-left: 3.5vw;
+}
+.arrowbtn2{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-left: 2vw;
+}
+.arrowbtn3{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-left: 4.2vw;
+}
+.arrowbtn4{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-left: 0.5vw;
+}
+footer{
+    padding-left: 2vw;
+    padding-top: 2vw;
+    color: white;
+    display: flex;
+}
+footer .title{
+    font-size: 2vw;
+    padding-right: 30vw;
+}
+footer .left .first, .second, .third, .fourth{
+    display: flex;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 2vw;
+}
+footer .line1{
+    background-color: white;
+    width: 31vw;
+    height: 0.1vw;
+    margin-bottom: 2vw;
+}
+footer .left button{
+    margin-left: 2vw;
+}
+footer button{ 
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+
+}
+footer .btn1{
+    padding-left: 14.5vw;
+}
+footer .btn2{
+    padding-left: 15vw;
+}
+footer .btn3{
+    padding-left: 3vw;
+}
+footer .sosmed{
+    text-align: center;
+    margin-left: 40vw;
+    padding-top:5vw;
+    padding-bottom: 5vw;
+    font-size: 2vw;
+}
+footer .sosmed img{
+    height: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+footer .email{
+    font-size: 1.5vw;
+    margin-top: 5vw;
+    font-weight: bold;
+    text-decoration: underline;
+}
